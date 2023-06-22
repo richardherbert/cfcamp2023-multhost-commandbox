@@ -1,0 +1,13 @@
+<Settings>
+	<Server>localhost</Server>
+	<Port>8009</Port>
+
+	<EnableRemoteAdmin>False</EnableRemoteAdmin>
+	<EnableHeaderDataSupport>True</EnableHeaderDataSupport>
+
+	<ForceSecureSession>False</ForceSecureSession>
+	<AllowEmptyHeaders>False</AllowEmptyHeaders>
+	<ResolveRemoteAddrFrom>HTTP_X_FORWARDED_FOR</ResolveRemoteAddrFrom>
+
+	<ModCFMLSecret>cfcamp-2023</ModCFMLSecret>
+</Settings>

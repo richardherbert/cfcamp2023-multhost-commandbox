@@ -1,0 +1,14 @@
+cd C:/websites/server-context.localhost/
+
+server set name=server-context
+server set openbrowser=false
+server set web.host=server-context.localhost
+server set web.http.port=8080
+server set web.webroot=C:/websites/server-context.localhost/
+server set web.rewrites.enable=true
+server set web.ajp.enable=true
+server set web.ajp.port=8009
+server set web.modcfml.enable=true
+server set web.modcfml.sharedkey=cfcamp-2023
+
+cfconfig set adminPassword=cfcamp-2023

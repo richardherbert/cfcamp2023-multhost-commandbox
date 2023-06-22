@@ -1,0 +1,22 @@
+{
+    "name":"server-context",
+    "openbrowser":"false",
+    "web":{
+        "host":"server-context.localhost",
+        "http":{
+            "port":"8080"
+        },
+        "webroot":"C:/websites/server-context.localhost/",
+        "ajp":{
+            "enable":"true",
+            "port":"8009"
+        },
+        "rewrites":{
+            "enable":true
+        }
+    },
+    "modcfml":{
+        "enable":"true",
+        "sharedkey":"cfcamp-2023"
+    }
+}

@@ -1,0 +1,5 @@
+cd C:/websites/server-context.localhost/
+
+server set dotenvFile=../.env
+
+server set cfconfig.web-${WEB-CONTEXT-1-WEBROOT}=.cfconfig-web-context-1.json
